@@ -144,7 +144,7 @@ form.addEventListener("submit", function (event) {
 // Función para enviar los datos al backend 
 const enviarDatos = async (producto) => {
   
-  const url = "http://localhost:3000/productos";
+  const url = "https://deploynativo-production.up.railway.app/productos";
 
   try {
     const response = await fetch(url, {

@@ -63,7 +63,7 @@ form.addEventListener("submit", (e) => {
 const sendDataToServer = (data) => {
 
   // Configuramos la URL del servidor
-  let url = "http://localhost:3000/contacto"
+  let url = "https://deploynativo-production.up.railway.app/contacto"
 
   // Configuramos las opciones de la petición
   //fetch(a donode va, {configurar el envio})
